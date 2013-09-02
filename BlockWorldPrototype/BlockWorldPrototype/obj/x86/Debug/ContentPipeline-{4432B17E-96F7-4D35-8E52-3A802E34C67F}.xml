@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\HighLight.fbx</Source>
+      <Name>Models\HighLight</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\HighLight.xnb</Output>
+      <Time>2013-09-02T20:49:20.8726211+01:00</Time>
+      <Dependency>
+        <Key>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\HighLight_0.xml</Key>
+        <Value>2013-09-02T20:53:31.5089566+01:00</Value>
+      </Dependency>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlight2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\HighLight_Blocked.fbx</Source>
+      <Name>Models\HighLight_Blocked</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\HighLight_Blocked.xnb</Output>
+      <Time>2013-09-02T20:49:20.8856218+01:00</Time>
+      <Dependency>
+        <Key>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\HighLight_Blocked_0.xml</Key>
+        <Value>2013-09-02T20:53:31.7709716+01:00</Value>
+      </Dependency>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlightBlocked_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Entity\Tree.fbx</Source>
+      <Name>Models\Entity\Tree</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\Tree.xnb</Output>
+      <Time>2013-09-02T20:49:29.1400939+01:00</Time>
+      <Dependency>
+        <Key>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\Tree_0.xml</Key>
+        <Value>2013-09-02T20:53:31.8729775+01:00</Value>
+      </Dependency>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\tree_0.xnb</Request>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\cubr_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\HighLight.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\HighLight_0.xml</Output>
+      <Time>2013-09-02T20:49:20.8726211+01:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Users\Dev\Pictures\highlight2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlight2_0.xnb</Output>
+      <Time>2013-08-24T15:05:25.4714988+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HighLight_Blocked.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\HighLight_Blocked_0.xml</Output>
+      <Time>2013-09-02T20:49:20.8856218+01:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Users\Dev\Pictures\highlightBlocked.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlightBlocked_0.xnb</Output>
+      <Time>2013-08-24T18:46:24.2648584+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Entity\Tree.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\Tree_0.xml</Output>
+      <Time>2013-09-02T20:49:29.1400939+01:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Users\Dev\Pictures\tree.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\tree_0.xnb</Output>
+      <Time>2013-08-15T20:14:26.5547282+01:00</Time>
+    </Item>
+    <Item>
+      <Source>E:\Users\Dev\Pictures\cubr.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\cubr_0.xnb</Output>
+      <Time>2013-08-12T18:30:12.8403058+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\debugFont.spritefont</Source>
+      <Name>Fonts\debugFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Fonts\debugFont.xnb</Output>
+      <Time>2013-09-02T20:57:44.6104332+01:00</Time>
+    </Item>
+    <Item>
+      <Source>blockWorld.fx</Source>
+      <Name>blockWorld</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\blockWorld.xnb</Output>
+      <Time>2013-09-02T21:00:14.9910345+01:00</Time>
+    </Item>
+    <Item>
+      <Source>modelEffect.fx</Source>
+      <Name>modelEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\modelEffect.xnb</Output>
+      <Time>2013-09-02T21:00:28.0907838+01:00</Time>
+    </Item>
+    <Item>
+      <Source>IsomitesAtlas.png</Source>
+      <Name>IsomitesAtlas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\IsomitesAtlas.xnb</Output>
+      <Time>2013-09-02T21:00:44.5167233+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{4432B17E-96F7-4D35-8E52-3A802E34C67F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototypeContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>E:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-07-20T13:16:27.0857564+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

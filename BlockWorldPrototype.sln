@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockWorldPrototype", "BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype.csproj", "{BCAEBD9A-60F6-4336-A4A8-11B76D4A1C87}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BlockWorldPrototypeContent", "BlockWorldPrototype\BlockWorldPrototypeContent\BlockWorldPrototypeContent.contentproj", "{4432B17E-96F7-4D35-8E52-3A802E34C67F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCAEBD9A-60F6-4336-A4A8-11B76D4A1C87}.Debug|x86.ActiveCfg = Debug|x86
+		{BCAEBD9A-60F6-4336-A4A8-11B76D4A1C87}.Debug|x86.Build.0 = Debug|x86
+		{BCAEBD9A-60F6-4336-A4A8-11B76D4A1C87}.Release|x86.ActiveCfg = Release|x86
+		{BCAEBD9A-60F6-4336-A4A8-11B76D4A1C87}.Release|x86.Build.0 = Release|x86
+		{4432B17E-96F7-4D35-8E52-3A802E34C67F}.Debug|x86.ActiveCfg = Debug|x86
+		{4432B17E-96F7-4D35-8E52-3A802E34C67F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

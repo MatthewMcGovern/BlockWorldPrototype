@@ -1,0 +1,17 @@
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\BlockWorldPrototype.csprojResolveAssemblyReference.cache
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\BlockWorldPrototype.exe
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\BlockWorldPrototype.pdb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\BlockWorldPrototype.exe
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\BlockWorldPrototype.pdb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\HighLight.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\HighLight_Blocked.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\Tree.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlight2_0.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\highlightBlocked_0.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\tree_0.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\cubr_0.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Fonts\debugFont.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\blockWorld.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\modelEffect.xnb
+E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\IsomitesAtlas.xnb
