@@ -90,12 +90,20 @@
     <Compile Include="World\Block\RampBlockVertexData.cs" />
     <Compile Include="World\Block\VertexHelper.cs" />
     <Compile Include="World\Editor\WorldEditor.cs" />
-    <Compile Include="World\Entity\Behaviour\BaseBehaviour.cs" />
-    <Compile Include="World\Entity\Behaviour\Harvestable.cs" />
+    <Compile Include="World\Entity\AI\BaseEntityAi.cs" />
+    <Compile Include="World\Entity\AI\PathFinder.cs" />
+    <Compile Include="World\Entity\AI\PathNode.cs" />
+    <Compile Include="World\Entity\Property\BaseProperty.cs" />
+    <Compile Include="World\Entity\Property\Harvestable.cs" />
     <Compile Include="World\Entity\BaseEntity.cs" />
     <Compile Include="World\Entity\EntityActions.cs" />
     <Compile Include="World\Entity\EntityContainer.cs" />
     <Compile Include="World\Entity\EntitySchematic.cs" />
+    <Compile Include="World\Job\BaseJob.cs" />
+    <Compile Include="World\Job\EntityJob.cs" />
+    <Compile Include="World\Job\JobManager.cs" />
+    <Compile Include="World\Job\JobScheduler.cs" />
+    <Compile Include="World\Job\ScheduledJob.cs" />
     <Compile Include="World\Segments\Segment.cs" />
     <Compile Include="World\Segments\SegmentLocation.cs" />
     <Compile Include="World\Segments\SegmentManager.cs" />
@@ -103,6 +111,7 @@
     <Compile Include="World\GameWorld.cs" />
     <Compile Include="World\WorldDirection.cs" />
     <Compile Include="World\WorldGlobal.cs" />
+    <Compile Include="World\WorldRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

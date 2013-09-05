@@ -6,7 +6,7 @@
 
 using BlockWorldPrototype.Core.Debug;
 
-namespace BlockWorldPrototype.World.Entity.Behaviour
+namespace BlockWorldPrototype.World.Entity.Property
 {
     using System;
     using System.Collections.Generic;
@@ -16,7 +16,7 @@ namespace BlockWorldPrototype.World.Entity.Behaviour
     /// <summary>
     /// TODO: Update summary.
     /// </summary>
-    public class Harvestable : BaseBehaviour
+    public class Harvestable : BaseProperty
     {
         public Harvestable()
         {

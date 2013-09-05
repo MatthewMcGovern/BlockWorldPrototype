@@ -165,6 +165,89 @@
       <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\IsomitesAtlas.xnb</Output>
       <Time>2013-09-02T21:00:44.5167233+01:00</Time>
     </Item>
+    <Item>
+      <Source>E:\Users\Dev\Pictures\log2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\log2_0.xnb</Output>
+      <Time>2013-09-03T19:31:36.1575064+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Entity\log3.fbx</Source>
+      <Name>Models\Entity\log3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\log3.xnb</Output>
+      <Time>2013-09-03T20:20:27.6181763+01:00</Time>
+      <Dependency>
+        <Key>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\log3_0.xml</Key>
+        <Value>2013-09-03T20:20:33.5475155+01:00</Value>
+      </Dependency>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\log2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Entity\log3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\log3_0.xml</Output>
+      <Time>2013-09-03T20:20:27.6181763+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Entity\ManModel.fbx</Source>
+      <Name>Models\Entity\ManModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\ManModel.xnb</Output>
+      <Time>2013-09-04T19:05:42.4747756+01:00</Time>
+      <Dependency>
+        <Key>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\ManModel_0.xml</Key>
+        <Value>2013-09-04T19:48:21.1341902+01:00</Value>
+      </Dependency>
+      <Request>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\man_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Entity\man.png</Source>
+      <Name>Models\Entity\man</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\man.xnb</Output>
+      <Time>2013-09-04T19:47:38.2647382+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Entity\ManModel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\obj\x86\Debug\Models\Entity\ManModel_0.xml</Output>
+      <Time>2013-09-04T19:05:42.4747756+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Entity\man.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Users\Dev\Documents\GitHub\BlockWorldPrototype\BlockWorldPrototype\BlockWorldPrototype\bin\x86\Debug\Content\Models\Entity\man_0.xnb</Output>
+      <Time>2013-09-04T19:47:38.2647382+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{4432B17E-96F7-4D35-8E52-3A802E34C67F}</ContentProjectGUID>

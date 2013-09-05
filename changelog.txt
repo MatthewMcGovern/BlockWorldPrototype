@@ -1,0 +1,123 @@
+Date: 04/09/2013
+
+ADDED:
+- BaseEntityAI class
+- Man model is back in
+- Path finding
+-- It's some form of A* but still checking every possible square so potentially expensive (it's not too bad so far).
+- Some very basic "Job" code as a proof of concept (to control A.I via jobs)
+-- It's very buggy at the moment
+
+ISSUES:
+- Something funny happens with the pathfinding when it paths too close to the target
+-- It takes a less optimal route by going diagonal then towards it...
+-- It sometimes even travels to the same node twice so it just sits there for a tick.
+--- These are most likely related to the way the path gets merged once a connection is found, as you add the goal node and the start node where the meeting occured.
+- JobCode is massively out of sync, causes the AI to try to harvest non-existant entitys!
+
+**********************
+----------------------
+**********************
+
+Date: 03/09/2013
+
+ADDED:
+- A log!
+- Trees now harvest into a log
+- Updated EntityContainer to have deferred adding/removing to avoid wrecking the list during an update.
+- Entity schematics now have descriptions... Not sure why. Just wanted to add a personal touch
+
+CHANGES:
+- Render offset moved to schematic
+
+ISSUES:
+- Have to scale the log to about 0.1 of its size, for some reason it is HUGE even though it shouldn't be.
+
+NOTES:
+- A.I is non existant (again, again).
+
+**********************
+----------------------
+**********************
+
+Date: 02/09/2013
+
+ADDED:
+- Rewrote the engine (well copy pasted all the good bits to a new organised project)
+- Basic behaviour code
+- Can set/get types of behaviour on the entity schematic.
+- Added entity container to manage all entities
+
+NOTES:
+- Items are now Entitys
+
+**********************
+----------------------
+**********************
+
+Date: 01/09/2013
+
+ADDED:
+- Reworked the Items code
+-- More streamlined adding/removing of items
+-- Using SegmentLocations now instead of x/y/z
+-- Harvestable Items (needs reworking or I'm going to have a ton of base classes
+
+NOTES:
+- Was out most of the day 
+
+**********************
+----------------------
+**********************
+
+Date: 31/08/2013
+
+ADDED:
+- Basic AI
+- AI Manager
+- Pathfinding (very inefficient path flooding)
+
+NOTES:
+- Not sure what else... I think I played Monster Hunter instead.
+
+**********************
+----------------------
+**********************
+
+Date: 30/08/2013
+
+ADDED:
+- Change log
+- Debug log ingame
+-- Static so it can be called from anywhere
+-- Has multiple message types
+- Ramp blocks top/bottom
+-- combines/obscures vertices like cubes
+- Started the editor
+
+FIXES:
+- Fixed bottom ramps textures pointing the wrong way.
+
+TODO:
+- Finish the editor, but first:
+- Add a "World" wrapper so I can access the frigging effect files rather than making a copy all over the place -_-
+- Drawable complex components need a "draw model" mode and a "draw cubeworld" mode as they vary.
+
+**********************
+----------------------
+**********************
+
+Date: The Past
+
+ADDED:
+- SegmentManager
+-- Segments
+--- Render Segments
+--- Item cotainers!
+---- Items
+----- Render basic
+- Block Masks
+
+NOTES:
+Cubes only draw visible vertices.
+Render chunks are only updated when a face changes, this way cubes can be recalculated without hindering performance!

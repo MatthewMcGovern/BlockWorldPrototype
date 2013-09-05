@@ -48,7 +48,7 @@ namespace BlockWorldPrototype.Core.Graphics
             {
                 foreach (Effect currentEffect in mesh.Effects)
                 {
-                    Matrix worldMatrix = Matrix.CreateScale(scale) * Matrix.CreateRotationX(-1.57079633f) * Matrix.CreateRotationY(rotation) * Matrix.CreateTranslation((position.X * 0.5f) + offset.X, (position.Y * 0.5f) + offset.Y, (position.Z * 0.5f) + offset.Z);
+                    Matrix worldMatrix = Matrix.CreateScale(new Vector3(scale.X, scale.Z, scale.Y)) * Matrix.CreateRotationX(-1.57079633f) * Matrix.CreateRotationY(rotation) * Matrix.CreateTranslation((position.X * 0.5f) + offset.X, (position.Y * 0.5f) + offset.Y, (position.Z * 0.5f) + offset.Z);
                     currentEffect.Parameters["xTexture"].SetValue(Textures[i++]);
                     currentEffect.Parameters["xWorld"].SetValue(worldMatrix);
                     currentEffect.Parameters["xView"].SetValue(camera.ViewMatrix);

@@ -25,5 +25,9 @@ namespace BlockWorldPrototype.World
         public static Vector3 East = new Vector3(1, 0, 0);
         public static Vector3 South = new Vector3(0, 0, -1);
         public static Vector3 West = new Vector3(-1, 0, 0);
+        public static Vector3 NorthWest = North + West;
+        public static Vector3 NorthEast = North + East;
+        public static Vector3 SouthEast = South + East;
+        public static Vector3 SouthWest = South + West;
     }
 }

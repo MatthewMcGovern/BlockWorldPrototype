@@ -45,9 +45,11 @@ namespace BlockWorldPrototype.World
         public static int[] RenderBlockMaskIndices;
 
         public static int _uniqueEntityID;
+        public static int _uniqueJobID;
 
         public static void Init()
         {
+            _uniqueEntityID = 0;
             _uniqueEntityID = 0;
             RenderSegmentIndices = new int[SegmentSize.Y];
             RenderBlockMaskIndices = new int[SegmentSize.Y];
@@ -68,6 +70,11 @@ namespace BlockWorldPrototype.World
         public static int GetNextEntityID()
         {
             return _uniqueEntityID++;
+        }
+
+        public static int GetNextJobID()
+        {
+            return _uniqueJobID++;
         }
     }
 }

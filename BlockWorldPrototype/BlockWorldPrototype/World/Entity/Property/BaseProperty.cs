@@ -6,7 +6,7 @@
 
 using System.Runtime.Remoting;
 
-namespace BlockWorldPrototype.World.Entity.Behaviour
+namespace BlockWorldPrototype.World.Entity.Property
 {
     using System;
     using System.Collections.Generic;
@@ -16,11 +16,11 @@ namespace BlockWorldPrototype.World.Entity.Behaviour
     /// <summary>
     /// TODO: Update summary.
     /// </summary>
-    public class BaseBehaviour
+    public class BaseProperty
     {
         protected EntityActions _actions;
 
-        public BaseBehaviour()
+        public BaseProperty()
         {
             _actions = new EntityActions();
         }

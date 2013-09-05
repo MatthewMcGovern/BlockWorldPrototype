@@ -4,7 +4,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-using BlockWorldPrototype.World.Entity.Behaviour;
+using BlockWorldPrototype.World.Entity.Property;
 using Microsoft.Xna.Framework;
 
 namespace BlockWorldPrototype.World.Entity
@@ -23,23 +23,44 @@ namespace BlockWorldPrototype.World.Entity
         public GameWorld GW;
         public int ID;
         public Vector3 Position;
+        public float Rotation;
+        public Vector3 Scale;
 
         public BaseEntity(GameWorld gw, EntitySchematic schematic, Vector3 position)
         {
             GW = gw;
             Schematic = schematic;
             ID = WorldGlobal.GetNextEntityID();
+            Position = position;
+            Rotation = 0f;
+            Scale = Schematic.BaseScale;
         }
 
-        public void Remove()
+        public void RemoveSelf()
         {
-            // eh it needs to do something...
-            // be it remove from the list... or tell the manager to remove it... I dunno.
+            // entity aren't allowed to directly remove themselves, otherwise the list gets out of sync.
+            GW.EC.RemoveEntityExternal(this);
         }
 
-        public bool GetBehaviour<T>() where T : class
+        public bool HasBehaviour<T>() where T : class
         {
             return Schematic.Behaviours.ContainsKey(typeof (T));
+        }
+
+        public T GetProperty<T>() where T : class
+        {
+            BaseProperty returnVal = null;
+            if (Schematic.Behaviours.TryGetValue(typeof(T), out returnVal))
+            {
+                return returnVal as T;
+            }
+
+            return null;
+        }
+
+        new public string ToString()
+        {
+            return Schematic.Name + " (ID: " + ID + ")";
         }
     }
 }
